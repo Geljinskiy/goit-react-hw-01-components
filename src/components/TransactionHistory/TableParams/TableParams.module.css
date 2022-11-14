@@ -1,0 +1,9 @@
+.item {
+  text-align: center;
+  width: 242px;
+  height: 42px;
+}
+
+.item:not(:last-child) {
+  border-right: 1px solid #e2e6e8;
+}

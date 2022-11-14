@@ -1,0 +1,29 @@
+.transactionHistory {
+  border-radius: 4px;
+  overflow: hidden;
+  outline: 1px solid #e2e6e8;
+  box-shadow: 0 3px 4px 0 #919191;
+}
+
+.tHead {
+  background-color: #00bcd5;
+  color: #ffffff;
+}
+
+.tBody {
+  color: #9ea3a8;
+  background-color: #ffffff;
+}
+
+.tHeadItem {
+  width: 242px;
+  height: 42px;
+}
+
+.tHeadItem:not(:last-child) {
+  border-right: 1px solid #ffffff;
+}
+
+.tBodyItem:nth-last-child(even) {
+  background-color: #ecf1f4;
+}
